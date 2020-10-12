@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-top: 0px;
+    background-image: linear-gradient( 99deg,  rgba(255,166,0,1) 14.7%, rgba(255,99,97,1) 73% );
+    font-family: sans-serif;
+}
+
+.dot {
+    border: 20px solid red;
+}
+
+svg {
+    background-color: bisque;
+    opacity: 0.7;
+}
+
+#tooltip {
+    visibility: hidden;
+    width: auto;
+    height: auto;
+}
+
+#title {
+    font-size: 25px;
+}
